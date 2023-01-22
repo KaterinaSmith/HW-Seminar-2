@@ -6,7 +6,7 @@ string number = Console.ReadLine();
 int a = Convert.ToInt32(number);
 int length = number.Length;
 
-if (length > 3)
+if (length != 3)
 {
     Console.WriteLine("Все же введите 3х значное число");
 }
